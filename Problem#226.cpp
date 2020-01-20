@@ -42,9 +42,13 @@ int main(void){
         for(int j=0;j<min((int)str_Array[i].size() , (int)str_Array[i-1].size());++j){
             if(str_Array[i][j]!=str_Array[i-1][j]){
                 int index = -1;
+                int index_2 = -1; // index for  the child node 
                 for(int k = 0;k<(int)graph.size();++k){
                     if(graph[k][0]==str_Array[i-1][j]){
                         index = k;
+                    }
+                    if(graph[k][0]==str_Array[i][j]){
+                        index_2 = k;
                     }
                 }
                 if(index==-1){
@@ -52,6 +56,9 @@ int main(void){
                     graph.back().push_back(str_Array[i][j]);
                 }else{
                     graph.at(index).push_back(str_Array[i][j]);
+                }
+                if(index_2==-1){
+                    graph.push_back(vector<char>(1,str_Array[i][j]));
                 }
             }else{
                 bool present = false;
