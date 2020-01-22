@@ -13,9 +13,9 @@
  *
  */
 /*
- * 1. We can do simple with N^2 time complexity 
+ * 1. We can do simply with N^2 time complexity just search for each element form 1 
  *
- * 2. We can use un_ordered map & can do it in O(n) but it require extra O(1)
+ * 2. We can use un_ordered map & can do it in O(n) but it require extra O(n) space 
  *
  * 3. if array doesn't contain duplicate and negative number then we can use formula n*(n+1)/2 and
  *     subtract those number present in the array at last we will remain with the lowest number not 
