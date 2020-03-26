@@ -21,25 +21,27 @@ int main(void){
             cin>>v[i][j];
         }
     }
-    int k; cin>>k; // number of colors
+    int k=m; // number of colors
     vector<vector<int>>dp(n+1,vector<int>(k,0));
+    // dp[i][j] = cost of building ith house with jth color 
+    for(int j=0;j<k;++j){
+        dp[0][j] = v[0][j];
+    }
     for(int i=1;i<n;++i){
         for(int j=0;j<k;++j){
-            if(i==1){
-                dp[i-1][j]=0;
-            }
-            dp[i][j] = 0;
+            dp[i][j] = INT_MAX;
             for(int l=0;l<k;++l){
                 if(j==l){
                     continue;
                 }
-                dp[i][j]+=dp[i-1][l];
+                dp[i][j] = min(dp[i][j]  , dp[i-1][l]);
             }
+            dp[i][j] += v[i][j];
         }
     }
-    int ans(INT_MAX);
+    int ans{INT_MAX};
     for(int i=0;i<k;++i){
-        ans = min(ans ,dp[n][i]);
+        ans = min(ans , dp[n-1][i]);
     }
     cout<<ans<<endl;
     return 0;
