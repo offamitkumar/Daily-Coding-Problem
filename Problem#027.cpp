@@ -16,6 +16,27 @@ int main(int argc , char *argv[]){
     stack<char>s;
     string text;
     cin >> text;
+    for(auto&ch:text){
+        if(ch=='(' || ch=='{' || ch=='['){
+            if(ch=='('){
+                s.push(')');
+            }
+            if(ch=='{'){
+                s.push('}');
+            }
+            if(ch=='['){
+                s.push(']');
+            }
+        }else if((!s.empty()) && ch== s.top()){
+            s.pop();
+        }else{
+            puts("false");
+            return 0;
+        }
+    }
+ 
+    /* this is also a valid solution 
+     *
     for(int i=0;i<(int)text.size();++i){
         if(text[i]=='(' || text[i]=='{' || text[i]=='['){
             if(text[i]=='('){
@@ -34,6 +55,7 @@ int main(int argc , char *argv[]){
             return 0;
         }
     }
+    */
     puts("true");
     return 0;
 }
