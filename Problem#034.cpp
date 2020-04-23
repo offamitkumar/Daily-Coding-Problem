@@ -23,28 +23,40 @@
  */
 #include <bits/stdc++.h>
 using namespace std;
-vector< int > reset_table;
-int kmp_processing(const string &s){
-    int j=-1 , i = 0;
-    while(i <(int) s.size()){
-        while(j>=0 && s[i] != s[j]){
-            j = reset_table.at(j);
+bool palin(string s){
+    int i=0 , j=(int)s.size()-1;
+    while(i<j){
+        if(s[i]!=s[j]){
+            return false;
         }
-        j++;
-        i++;
-        reset_table[i] = j;
+        i++;j--;
     }
-    return reset_table[i];
+    return true;
 }
-
+string get_palin(string s){
+    if(palin(s)){
+        return s;
+    }
+    if(s[0]==s[s.size()-1]){
+        return s[0]+get_palin(s.substr(1,s.size()-1))+s[s.size()-1];
+    }else{
+        string left = s[0]+get_palin(s.substr(1,s.size()))+s[0];
+        string right = s[s.size()-1]+get_palin(s.substr(0,s.size()-1))+s[s.size()-1];
+        if(left.size()>right.size()){
+            return right;
+        }else if(left.size()<right.size()){
+            return left;
+        }
+        if(left>right){
+            return right;
+        }else{
+            return left;
+        }
+    }
+}
 int main(void){
     string s , rev; 
     cin >> s;
-    rev = s; 
-    reverse(rev.begin() , rev.end());
-    s = s + "#" +  rev;
-    reset_table.assign(s.size() , -1);
-    int del = kmp_processing(s);
-    cout << s.substr(rev.size()+1 , rev.size()-del) + s.substr(0 , rev.size()) << '\n';
+    cout<<get_palin(s)<<'\n';
     return 0;
 }
