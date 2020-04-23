@@ -16,11 +16,6 @@
   
  */
 
-/*
- * we will run the kmp pattern process on the string and just remove the suffix which matches with the 
- * prefix in the original string 
- *
- */
 #include <bits/stdc++.h>
 using namespace std;
 bool palin(string s){
