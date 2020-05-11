@@ -9,53 +9,71 @@
     Given the string "([)]" or "((()", you should return false.
 
  */
-#include <bits/stdc++.h>
-using namespace std;
-int main(int argc , char *argv[]){
-    // write you code here
-    stack<char>s;
-    string text;
-    cin >> text;
-    for(auto&ch:text){
-        if(ch=='(' || ch=='{' || ch=='['){
-            if(ch=='('){
-                s.push(')');
+
+class Solution {
+
+    stack<char>temp;
+
+public:
+
+    bool isValid(string s) {
+
+        for(auto&itr:s){
+
+            if(itr == '(' || itr == '[' || itr == '{') {
+
+                temp.push(itr);
+
+            } else{
+
+                if(temp.size() == 0){
+
+                    return false;
+
+                }
+
+                if( itr == ')' ){
+
+                    if( temp.top() != '(' ) {
+
+                        return false;
+
+                    }else{
+
+                        temp.pop();
+
+                    }
+
+                }else if( itr == ']' ){
+
+                    if( temp.top() != '[' ) {
+
+                        return false;
+
+                    }else {
+
+                        temp.pop();
+
+                    }
+
+                }else if( itr == '}' ) {
+
+                    if( temp.top() != '{' ) {
+
+                        return false;
+
+                    }else {
+
+                        temp.pop();
+
+                    }
+                }
             }
-            if(ch=='{'){
-                s.push('}');
-            }
-            if(ch=='['){
-                s.push(']');
-            }
-        }else if((!s.empty()) && ch== s.top()){
-            s.pop();
-        }else{
-            puts("false");
-            return 0;
         }
+        return temp.size() == 0;
     }
- 
-    /* this is also a valid solution 
-     *
-    for(int i=0;i<(int)text.size();++i){
-        if(text[i]=='(' || text[i]=='{' || text[i]=='['){
-            if(text[i]=='('){
-                s.push(')');
-            }
-            if(text[i]=='{'){
-                s.push('}');
-            }
-            if(text[i]=='['){
-                s.push(']');
-            }
-        }else if((!s.empty()) && text[i]== s.top()){
-            s.pop();
-        }else{
-            puts("false");
-            return 0;
-        }
-    }
-    */
-    puts("true");
-    return 0;
+};
+
+int main( void ) {
+    return  0;
 }
