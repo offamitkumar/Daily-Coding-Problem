@@ -8,7 +8,7 @@ Solutions might not be the optimised one , but they passed all leetcode testcase
 
 ---
 
-#### -[x] Problem 1
+#### - [x] Problem 1
 
 Given a list of numbers, return whether any two sums to k. 
 
