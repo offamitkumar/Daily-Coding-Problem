@@ -1,5 +1,7 @@
 # Daily-Coding-Problem 
-
+<link href="style.css" rel="stylesheet"></link>
+---
 #### Problem 1
 This is a testing 
-[hello World] (Solution/Problem#001.cpp)
+[Solution] (Solution/Problem#001.cpp)
+---
