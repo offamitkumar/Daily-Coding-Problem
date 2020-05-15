@@ -1,10 +1,10 @@
 # Daily Coding Problem
 
-This are solution to **Daily Coding Problem**.
+###### This are solution to **Daily Coding Problem**.
 
-Most of These problem are found on [*LeetCode*](https://leetcode.com/) with minor changes in **Output/Input**.
+###### Most of These problem are found on [*LeetCode*](https://leetcode.com/) with minor changes in **Output/Input**.
 
-Solutions might not be the *optimised* one , but they passed all leetcode testcase within given *time limit*.
+###### Solutions might not be the *optimised* one , but they passed all leetcode testcase within given *time limit*.
 
 ---
 
