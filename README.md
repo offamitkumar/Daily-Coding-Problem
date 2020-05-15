@@ -18,7 +18,7 @@
 
 ##### __*Bonus*__: Can you do this in one pass?
 
-### Click [Here](Solution/Problem#001.cpp) for solution.
-### Click [Here](https://leetcode.com/problems/two-sum/) for Question Link on __LeetCode__.
+#### Click [Here](Solution/Problem#001.cpp/) for solution.
+#### Click [Here](https://leetcode.com/problems/two-sum/) for Question Link on __LeetCode__.
 
 ---
