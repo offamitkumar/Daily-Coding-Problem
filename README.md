@@ -18,8 +18,29 @@
 
 ##### __*Bonus*__: Can you do this in one pass?
 
-#### Click [Here](Solution/Day-001.cpp/) for solution.
-#### Click [Here](https://leetcode.com/problems/two-sum/) for Question Link on __LeetCode__.
+#### Click [__*Here*__](Solution/Day-001.cpp/) for solution.
+#### Click [__*Here*__](https://leetcode.com/problems/two-sum/) for Question Link on __LeetCode__.
+
+---
+
+## Problem 25
+
+
+##### Implement regular expression matching with the following special characters:
+#####
+#####  . (period) which matches any single character
+#####  * (asterisk) which matches zero or more of the preceding element
+##### That is, implement a function that takes in a string and a valid regular expression and 
+##### returns whether or not the string matches the regular expression.
+#####
+##### For example, given the regular expression ``"ra."`` and the string ``"ray"``, your function should return ``true``.
+##### The same regular expression on the string ``"raymond"`` should return ``false``.
+#####
+##### Given the regular expression ``".*at"`` and the string ``"chat"``, your function should return ``true``. 
+##### The same regular expression on the string "chats" should return false.
+
+#### Click [__*here*__](Solution/Day-025.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/regular-expression-matching/) for Question Link on __LeetCode__.
 
 ---
 
@@ -49,6 +70,6 @@
 ```
 ##### You should return ``2``, since bishops ``1`` and ``3`` attack each other, as well as bishops ``3`` and ``4``.
 
-#### Click [Here](Solution/Day-068.cpp/) for solution.
+#### Click [__*Here*__](Solution/Day-068.cpp/) for solution.
 
 ---
