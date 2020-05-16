@@ -33,10 +33,10 @@
 #####
 #####  For example, given ``M = 5`` and the list of bishops:
  ```
-      (0, 0)
-      (1, 2)
-      (2, 2)
-      (4, 0)
+          (0, 0)
+          (1, 2)
+          (2, 2)
+          (4, 0)
 ```
 #####  The board would look like this:
 #####
