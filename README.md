@@ -11,8 +11,8 @@
 ##### For example, given ```[10, 15, 3, 7]``` and k of ```17```, return true since ```10 + 7``` is ```17```.
 ##### __*Bonus*__: Can you do this in one pass?
 
-#### Click [__*Here*__](Solution/Day-001.cpp/) for solution.
-#### Click [__*Here*__](https://leetcode.com/problems/two-sum/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+#### Click [__*here*__](Solution/Day-001.cpp/) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/two-sum/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
 
 ## Problem 25
@@ -27,7 +27,7 @@
 ##### The same regular expression on the string "chats" should return false.
 
 #### Click [__*here*__](Solution/Day-025.cpp) for solution.
-#### Click [__*here*__](https://leetcode.com/problems/regular-expression-matching/)to visit [*LeetCode*](https://leetcode.com/) for this question.
+#### Click [__*here*__](https://leetcode.com/problems/regular-expression-matching/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
 
 ## Problem 68
@@ -63,5 +63,5 @@
 ##### You can assume the list has at least three integers.
 
 #### Click [__*here*__](Solution/Day-069.cpp) for solution. 
-#### Click [__*here*__](https://leetcode.com/problems/maximum-product-of-three-numbers/) to go to this question on to visit [*LeetCode*](https://leetcode.com/) for this question.
+#### Click [__*here*__](https://leetcode.com/problems/maximum-product-of-three-numbers/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
