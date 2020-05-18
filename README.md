@@ -77,3 +77,12 @@
 #### Click [__*here*__](Solution/Day-069.cpp) for solution. 
 #### Click [__*here*__](https://leetcode.com/problems/maximum-product-of-three-numbers/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+
+## Problem 70
+##### This problem was asked by Microsoft.
+##### A number is considered perfect if its __digits sum__ up to exactly ``10``.
+##### Given a positive integer ``n``, return the ``n-th`` perfect number.
+##### For example, given ``1``, you should return ``19``. Given ``2``, you should return ``28``.
+
+#### Click [__*here*__](Solution/Day-070.cpp) for solution. 
+---
