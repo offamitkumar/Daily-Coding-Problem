@@ -4,7 +4,6 @@
 ###### Solutions might not be the *optimised* one , but they passed all leetcode testcase within given *time limit*.
 
 ---
-
 ## Problem 1
 ##### This problem was recently asked by Google.
 ##### Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
@@ -14,7 +13,6 @@
 #### Click [__*here*__](Solution/Day-001.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/two-sum/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
-
 ## Problem 2
 ##### This problem was asked by Uber.
 ##### Given an array of integers, return a new array such that each element at index i of 
@@ -26,7 +24,6 @@
 #### Click [__*here*__](Solution/Day-002.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/product-of-array-except-self/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
-
 ## Problem 25
 ##### Implement regular expression matching with the following special characters:
 #####  . (period) which matches any single character
@@ -41,9 +38,14 @@
 #### Click [__*here*__](Solution/Day-025.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/regular-expression-matching/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 45
+##### This problem was asked by Two Sigma.
+##### Using a function ``rand7()`` that returns an integer from ``1`` to ``7`` (inclusive) with uniform probability, implement a function ``rand5()`` that returns an integer from ``1`` to ``5`` (inclusive).
 
+#### Click [__*here*__](Solution/Day-045.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/implement-rand10-using-rand7/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 68
-
 #####  This problem was asked by Google.
 #####  On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
 #####  You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: ``(1, 2)`` is considered the same as ``(2, 1)``.
@@ -67,7 +69,6 @@
 
 #### Click [__*here*__](Solution/Day-068.cpp/) for solution.
 ---
-
 ## Problem 69
 ##### This problem was asked by Facebook.
 ##### Given a list of integers, return the __largest__ product that can be made by multiplying any _three integers_.
@@ -77,7 +78,6 @@
 #### Click [__*here*__](Solution/Day-069.cpp) for solution. 
 #### Click [__*here*__](https://leetcode.com/problems/maximum-product-of-three-numbers/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
-
 ## Problem 70
 ##### This problem was asked by Microsoft.
 ##### A number is considered perfect if its __digits sum__ up to exactly ``10``.
@@ -85,4 +85,11 @@
 ##### For example, given ``1``, you should return ``19``. Given ``2``, you should return ``28``.
 
 #### Click [__*here*__](Solution/Day-070.cpp) for solution. 
+---
+## Problem 71
+##### This problem was asked by Two Sigma.
+##### Using a function ``rand7()`` that returns an integer from ``1`` to ``7`` (inclusive) with uniform probability, implement a function ``rand5()`` that returns an integer from ``1`` to ``5`` (inclusive).
+
+#### Click [__*here*__](Solution/Day-071.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/implement-rand10-using-rand7/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
