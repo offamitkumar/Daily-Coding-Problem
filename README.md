@@ -38,6 +38,14 @@
 #### Click [__*here*__](Solution/Day-025.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/regular-expression-matching/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 36
+##### This problem was asked by Dropbox.
+##### Given the root to a binary search tree, find the second largest node in the tree.
+
+#### Click [__*here*__](Solution/Day-035.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+#### __NOTE__ in the above question we have to find kth smallest number , so after a little bit of change we can also find k-th largest number and for this question k=2.
+---
 ## Problem 45
 ##### This problem was asked by Two Sigma.
 ##### Using a function ``rand7()`` that returns an integer from ``1`` to ``7`` (inclusive) with uniform probability, implement a function ``rand5()`` that returns an integer from ``1`` to ``5`` (inclusive).
