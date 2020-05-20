@@ -93,3 +93,9 @@
 #### Click [__*here*__](Solution/Day-071.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/implement-rand10-using-rand7/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 73
+##### This problem was asked by Google.
+##### Given the head of a singly linked list, reverse it in-place.
+#### Click [__*here*__](Solution/Day-073.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/reverse-linked-list/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
