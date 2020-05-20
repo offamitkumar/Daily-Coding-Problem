@@ -10,9 +10,9 @@
  * };
  */
 class Solution {
-    int ans =-1;
-    bool isAnsFound = false;
-    int tempCounter = 0;
+    int ans;
+    bool isAnsFound;
+    int tempCounter;
     void getans(TreeNode* root , int k){
         if(isAnsFound){
             return;
@@ -39,6 +39,7 @@ class Solution {
 public:
     int kthSmallest(TreeNode* root) {
         tempCounter =0;
+        ans = -1;
         isAnsFound = false;
         getans(root , 2);
         return ans;
