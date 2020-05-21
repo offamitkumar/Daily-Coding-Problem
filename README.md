@@ -126,6 +126,7 @@
 ```
 ##### Should return ``null``, since we have an infinite loop.
 
+#### Click [__*here*__](Solution/Day-072.cpp) for solution.
 ---
 ## Problem 73
 ##### This problem was asked by Google.
