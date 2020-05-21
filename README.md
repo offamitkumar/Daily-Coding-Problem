@@ -118,8 +118,12 @@
 ```
 ##### Would have maximum value ``3`` using the path of vertices ``[0, 2, 3, 4], (A, A, C, A)``.
 ##### The following input graph:
-##### ``A``
-##### ``[(0, 0)]``
+```
+        A
+```
+```
+    [ (0, 0) ]
+```
 ##### Should return ``null``, since we have an infinite loop.
 
 ---
