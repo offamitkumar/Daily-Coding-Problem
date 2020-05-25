@@ -191,3 +191,12 @@
 
 #### Click [__*here*__](Solution/Day-076.cpp) for solution.
 ---
+## Problem 77
+##### This problem was asked by Snapchat.
+##### Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
+##### The input list is not necessarily ordered in any way.
+##### For example, given ``[(1, 3), (5, 8), (4, 10), (20, 25)]``, you should return ``[(1, 3), (4, 10), (20, 25)]``.
+
+#### Click [__*here*__](Solution/Day-077.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/merge-intervals/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
