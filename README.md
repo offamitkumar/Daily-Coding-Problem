@@ -63,7 +63,7 @@
       input : 1 , Output : 1
       input : 2 , Output : 0 
       input : 3 , Output : 0
-      nput : 4 , Output : 0
+      input : 4 , Output : 0
       input : 5 , Output : 1728 (it took 23 seconds) 
 ```
 
