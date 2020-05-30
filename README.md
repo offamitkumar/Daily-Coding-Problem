@@ -291,3 +291,11 @@
 #### Click [__*here*__](Solution/Day-081.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 82
+##### This problem was asked Microsoft.
+##### Using a ``read7()`` method that returns ``7`` characters from a file, implement ``readN(n)`` which reads ``n`` characters.
+##### For example, given a file with the content “``Hello world``”, _three_ ``read7()`` returns “``Hello w``”, “``orld``” and then “````”.
+
+#### Click [__*here*__](Solution/Day-082.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/read-n-characters-given-read4/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
