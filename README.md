@@ -333,4 +333,7 @@
       1 1 0 0 1
       1 1 0 0 1
 ```
+
+#### Click [__*here*__](Solution/Day-084.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/number-of-islands/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
