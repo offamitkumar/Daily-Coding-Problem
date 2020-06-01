@@ -322,3 +322,15 @@
 #### Click [__*here*__](Solution/Day-083.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/invert-binary-tree/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 84
+##### This problem was asked by Amazon.
+##### Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A ``1`` represents land and ``0`` represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
+##### For example, this matrix has ``4`` islands.
+```
+      0 0 1 1 0
+      0 1 1 0 0
+      0 0 0 0 0
+      1 1 0 0 1
+      1 1 0 0 1
+```
+---
