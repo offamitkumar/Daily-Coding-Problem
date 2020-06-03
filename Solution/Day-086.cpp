@@ -22,7 +22,11 @@ public:
                 res+=s[i];
             }
         }
-        return res;
+        // in leetcode we have to return the string but 
+        // in Daily question problem we are asked to return the minimal
+        // removals so if we subtract valid string size from total size then
+        // we will be left with the total characters we have to remove. 
+        return n-(res.size());
     }
 };
 
