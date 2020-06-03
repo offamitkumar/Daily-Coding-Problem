@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string minRemoveToMakeValid(string s) {
+    int minRemoveToMakeValid(string s) {
         const int n = (int)s.size();
         stack<int>st;
         for(int i=0;i<n;++i){
@@ -26,6 +26,8 @@ public:
         // in Daily question problem we are asked to return the minimal
         // removals so if we subtract valid string size from total size then
         // we will be left with the total characters we have to remove. 
+        // 
+        // Note return type of function also needs to be changed.
         return n-(res.size());
     }
 };
