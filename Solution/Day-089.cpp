@@ -15,7 +15,8 @@ public:
         if(root == nullptr){
             return true;
         }
-        if(root -> val >= max_value.value() || root->val <= min_value.value()){
+        // according to DCP question binary search tree node can have equal value
+        if(root -> val > max_value.value() || root->val < min_value.value()){
             return false;
         }
         return isValidBST(root->right,root->val,max_value) && isValidBST(root->left,min_value,root->val);
