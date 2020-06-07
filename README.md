@@ -380,6 +380,14 @@
 #### Click [__*here*__](Solution/Day-088.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/divide-two-integers/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 89
+##### This problem was asked by LinkedIn.
+##### Determine whether a tree is a valid ``binary search tree``.
+##### A binary search tree is a tree with two children, ``left`` and ``right``, and satisfies the constraint that the key in the left child must be ``less than or equal to`` the root and the key in the ``right child must be greater than or equal to`` the root.
+
+#### Click [__*here*__](Solution/Day-089.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/validate-binary-search-tree/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 91
 ##### This problem was asked by Dropbox.
 ##### What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
