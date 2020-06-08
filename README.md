@@ -388,6 +388,12 @@
 #### Click [__*here*__](Solution/Day-089.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/validate-binary-search-tree/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 90
+##### This question was asked by Google.
+##### Given an integer ``n`` and a list of integers ``l``, write a function that randomly generates a number from ``0`` to ``n-1`` that isn't in ``l (uniform)``.
+
+#### Click [__*here*__](Solution/Day-090.cpp) for solution.
+---
 ## Problem 91
 ##### This problem was asked by Dropbox.
 ##### What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
