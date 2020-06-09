@@ -422,5 +422,5 @@
 ##### should return ``['CSC100', 'CSC200', 'CSCS300']``.
 
 #### Click [__*here*__](Solution/Day-092.py) for solution.
-#### There is no matching problem on LeetCode but you can try [__*course schedule*__](https://leetcode.com/problems/course-schedule/),[__*course schedule II*__](https://leetcode.com/problems/course-schedule-ii/).
+#### I didn't find any matching problem on LeetCode but you can try [__*course schedule*__](https://leetcode.com/problems/course-schedule/),[__*course schedule II*__](https://leetcode.com/problems/course-schedule-ii/).
 ---
