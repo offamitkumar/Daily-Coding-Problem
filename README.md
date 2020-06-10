@@ -424,3 +424,11 @@
 #### Click [__*here*__](Solution/Day-092.cpp) for solution.
 #### I didn't find any matching problem on LeetCode but you can try [__*course schedule*__](https://leetcode.com/problems/course-schedule/),[__*course schedule II*__](https://leetcode.com/problems/course-schedule-ii/).
 ---
+## Problem 93
+##### This problem was asked by Apple.
+##### Given a tree, find the largest tree/subtree that is a BST.
+##### Given a tree, return the ``size`` of the ``largest`` tree/subtree that is a ``BST``.
+
+#### Click [__*here*__](Solution/Day-093.cpp) for solution.
+---
+
