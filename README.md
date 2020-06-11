@@ -38,11 +38,23 @@
 #### Click [__*here*__](Solution/Day-025.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/regular-expression-matching/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 35
+##### This problem was asked by Google.
+##### Given an array of strictly the characters ``'R', 'G', and 'B'``,
+#####   segregate the values of the array so that all the ``Rs`` come first, the ``Gs`` come second, and the ``Bs`` come last. 
+##### You can only swap elements of the array.
+##### Do this in linear time and in-place.
+##### For example, given the array ``['G', 'B', 'R', 'R', 'B', 'R', 'G']``,
+##### it should become ``['R', 'R', 'R', 'G', 'G', 'B', 'B']``.
+
+#### Click [__*here*__](Solution/Day-035.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/sort-colors/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 36
 ##### This problem was asked by Dropbox.
 ##### Given the root to a binary search tree, find the second largest node in the tree.
 
-#### Click [__*here*__](Solution/Day-035.cpp) for solution.
+#### Click [__*here*__](Solution/Day-036.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 #### __NOTE__ in the above question we have to find kth smallest number , so after a little bit of change we can also find k-th largest number and for this question k=2.
 ---
