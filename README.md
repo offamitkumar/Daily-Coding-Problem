@@ -431,4 +431,11 @@
 
 #### Click [__*here*__](Solution/Day-093.cpp) for solution.
 ---
+## Problem 94
+##### This problem was asked by Google.
+##### Given a binary tree of integers, find the maximum path sum between two nodes. 
+##### The path must go through at least one node, and does not need to go through the root.
 
+#### Click [__*here*__](Solution/Day-094.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/binary-tree-maximum-path-sum/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
