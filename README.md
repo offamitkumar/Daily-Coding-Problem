@@ -468,6 +468,34 @@
 #### Click [__*here*__](Solution/Day-096.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/permutations/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 97
+##### This problem was asked by Stripe.
+##### Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
+##### It should contain the following methods:
+##### ``set(key, value, time)``: sets key to value for ``t = time``.
+##### ``get(key, time)``: gets the key at ``t = time``.
+##### The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should ``return the value that was set for that key set at the most recent time``.
+##### Consider the following examples:
+```
+    d.set(1, 1, 0) # set key 1 to value 1 at time 0
+    d.set(1, 2, 2) # set key 1 to value 2 at time 2
+    d.get(1, 1) # get key 1 at time 1 should be 1
+    d.get(1, 3) # get key 1 at time 3 should be 2
+```
+```
+    d.set(1, 1, 5) # set key 1 to value 1 at time 5
+    d.get(1, 0) # get key 1 at time 0 should be null
+    d.get(1, 10) # get key 1 at time 10 should be 1
+```
+```
+    d.set(1, 1, 0) # set key 1 to value 1 at time 0
+    d.set(1, 2, 0) # set key 1 to value 2 at time 0
+    d.get(1, 0) # get key 1 at time 0 should be 2
+```
+
+#### Click [__*here*__](Solution/Day-097.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/time-based-key-value-store/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 98
 ##### This problem was asked by Coursera.
 ##### Given a 2D board of characters and a word, find if the word exists in the grid.
