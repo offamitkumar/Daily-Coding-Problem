@@ -543,4 +543,6 @@
 ##### Input: ``[(0, 0), (1, 1), (1, 2)]``  
 ##### Output: ``2``  
 ##### It takes ``1`` step to move from ``(0, 0)`` to ``(1, 1)``. It takes one more step to move from ``(1, 1)`` to ``(1, 2)``.
+
+#### Click [__*here*__](Solution/Day-100.cpp) for solution.
 ---
