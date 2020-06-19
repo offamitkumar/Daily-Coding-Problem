@@ -567,3 +567,11 @@
 
 #### Click [__*here*__](Solution/Day-102.cpp) for solution.
 ---
+## Problem 103
+##### This problem was asked by Square.
+##### Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+##### For example, given the string ``"figehaeci"`` and the set of characters ``{a, e, i}``, you should return ``"aeci"``.
+##### If there is no substring containing all the characters in the set, return ``null``.
+
+#### Click [__*here*__](Solution/Day-103.cpp) for solution.
+---
