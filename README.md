@@ -575,3 +575,11 @@
 
 #### Click [__*here*__](Solution/Day-103.cpp) for solution.
 ---
+## Problem 104
+##### This problem was asked by Google.
+##### Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+##### For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
+
+#### Click [__*here*__](Solution/Day-104.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/palindrome-linked-list/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
