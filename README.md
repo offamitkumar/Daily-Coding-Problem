@@ -583,3 +583,10 @@
 #### Click [__*here*__](Solution/Day-104.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/palindrome-linked-list/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 105
+##### This problem was asked by Facebook.
+##### Given a function f, and N return a debounced f of N milliseconds.
+##### That is, as long as the debounced f continues to be invoked, f itself will not be called for N milliseconds.
+
+#### Click [__*here*__](Solution/Day-105.cpp) for solution.
+---
