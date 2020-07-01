@@ -578,15 +578,23 @@
 ## Problem 104
 ##### This problem was asked by Google.
 ##### Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
-##### For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
+##### For example, ``1 -> 4 -> 3 -> 4 -> 1`` returns ``True`` while ``1 -> 4`` returns ``False``.
 
 #### Click [__*here*__](Solution/Day-104.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/palindrome-linked-list/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
 ## Problem 105
 ##### This problem was asked by Facebook.
-##### Given a function f, and N return a debounced f of N milliseconds.
-##### That is, as long as the debounced f continues to be invoked, f itself will not be called for N milliseconds.
+##### Given a function ``f``, and ``N`` return a debounced ``f`` of ``N`` milliseconds.
+##### That is, as long as the debounced ``f`` continues to be invoked, ``f`` itself will not be called for ``N`` milliseconds.
 
 #### Click [__*here*__](Solution/Day-105.cpp) for solution.
+---
+## Problem 106
+##### This problem was asked by Pinterest.
+##### Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index `0`.
+##### For example, ``[2, 0, 1, 0]`` returns ``True`` while ``[1, 1, 0, 1]`` returns ``False``.
+
+#### Click [__*here*__](Solution/Day-106.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/jump-game/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
