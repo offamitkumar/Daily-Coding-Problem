@@ -598,3 +598,17 @@
 #### Click [__*here*__](Solution/Day-106.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/jump-game/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 107
+##### This problem was asked by Microsoft.
+##### Print the nodes in a binary tree level-wise. For example, the following should print ``1, 2, 3, 4, 5``.
+```
+          1
+         / \
+        2   3
+           / \
+          4   5
+```
+
+#### Click [__*here*__](Solution/Day-107.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/binary-tree-level-order-traversal/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
