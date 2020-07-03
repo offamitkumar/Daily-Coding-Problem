@@ -612,3 +612,11 @@
 #### Click [__*here*__](Solution/Day-107.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/binary-tree-level-order-traversal/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 108
+##### This problem was asked by Google.
+##### Given two strings ``A`` and ``B``, return whether or not ``A`` can be shifted some number of times to get ``B``.
+##### For example, if ``A`` is ``abcde`` and ``B`` is ``cdeab``, return ``true``. If ``A`` is ``abc`` and ``B`` is ``acb``, return ``false``.
+
+#### Click [__*here*__](Solution/Day-108.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/rotate-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
