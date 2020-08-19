@@ -674,3 +674,12 @@
 #### Click [__*here*__](Solution/Day-113.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/reverse-words-in-a-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+---
+## Problem 214
+##### This problem was asked by Stripe.
+##### Given an integer `n`, return the length of the longest consecutive run of `1s` in its binary representation.
+##### For example, given `156`, you should return `3`.
+
+#### Click [__*here*__](Solution/Day-214.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/max-consecutive-ones/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
