@@ -717,7 +717,7 @@
           [2],
           [3]
       ]
-      ```
+```
 ##### The transitive closure of this graph would be:
 ```
   [1, 1, 1, 1]
