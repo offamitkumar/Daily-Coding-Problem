@@ -728,3 +728,9 @@
 ##### Given a graph, find its transitive closure.
 #### Click [__*here*__](Solution/Day-255.cpp) for solution.
 ---
+---
+###### This problem was asked by Fitbit.
+###### Given a linked list, rearrange the node values such that they appear in alternating ```low -> high -> low -> high ...``` form. For example, given ```1 -> 2 -> 3 -> 4 -> 5```, you should return ```1 -> 3 -> 2 -> 5 -> 4```.
+
+#### Click [__*here*__](Solution/Day-256.cpp) for solution.
+---
