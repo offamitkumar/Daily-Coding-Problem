@@ -707,6 +707,8 @@
 #### Click [__*here*__](Solution/Day-244.cpp) for solution.
 ---
 ---
+## Problem 255
+
 ##### This problem was asked by Microsoft.
 ##### The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where ```M[i][j] == 1``` if there is a path between vertices ```i``` and ```j```, and otherwise ```0```.
 ##### For example, suppose we are given the following graph in adjacency list form:
@@ -729,14 +731,37 @@
 #### Click [__*here*__](Solution/Day-255.cpp) for solution.
 ---
 ---
+## Problem 256
+
 ##### This problem was asked by Fitbit.
 ##### Given a linked list, rearrange the node values such that they appear in alternating ```low -> high -> low -> high ...``` form. For example, given ```1 -> 2 -> 3 -> 4 -> 5```, you should return ```1 -> 3 -> 2 -> 5 -> 4```.
 
 #### Click [__*here*__](Solution/Day-256.cpp) for solution.
 ---
 ---
+## Problem 257
+
 ##### This problem was asked by WhatsApp.
 ##### Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given ```[3, 7, 5, 6, 9]```, you should return ```(1, 3)```.
 
 #### Click [__*here*__](Solution/Day-257.cpp) for solution.
+---
+---
+## Problem 258
+
+##### This problem was asked by Morgan Stanley.
+
+##### In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
+
+##### Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
+
+##### For example, given the following tree:
+```
+           1
+        /     \
+      2         3
+     / \       / \
+    4   5     6   7
+```
+##### You should return ```[1, 3, 2, 4, 5, 6, 7]```.
 ---
