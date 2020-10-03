@@ -750,11 +750,8 @@
 ## Problem 258
 
 ##### This problem was asked by Morgan Stanley.
-
 ##### In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
-
 ##### Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
-
 ##### For example, given the following tree:
 ```
            1
@@ -764,4 +761,22 @@
     4   5     6   7
 ```
 ##### You should return ```[1, 3, 2, 4, 5, 6, 7]```.
+
+#### Click [__*here*__](Solution/Day-258.cpp) for solution.
+---
+---
+## Problem 259
+
+##### This problem was asked by Two Sigma.
+##### Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
+##### 
+##### * Player 1: ```g``` 
+##### * Player 2: ```h```  
+##### * Player 1: ```o```
+##### * Player 2: ```s``` 
+##### * Player 1: ```t [loses]``` 
+##### Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
+##### For example, if the dictionary is ```["cat", "calf", "dog", "bear"]```, the only winning start letter would be ```b```.
+
+#### Click [__*here*__](Solution/Day-259.cpp) for solution.
 ---
