@@ -808,3 +808,11 @@
 
 #### Click [__*here*__](Solution/Day-261.cpp) for solution.
 ---
+---
+## Problem 262 
+
+##### This problem was asked by Mozilla.
+##### A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
+#### Click [__*here*__](Solution/Day-262.cpp) for solution.
+---
