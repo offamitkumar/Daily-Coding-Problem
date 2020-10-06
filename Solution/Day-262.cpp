@@ -25,6 +25,7 @@ class Solution {
     }
     public:
         vector<pair<int,int>> findBridges(vector<vector<int>>&graph) {
+            bridge.clear();
             timer = 0; 
             inTime.assign(graph.size(), -1); 
             minFoundTime.resize(graph.size());
