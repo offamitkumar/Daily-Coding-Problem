@@ -857,3 +857,11 @@
 
 #### Click [__*here*__](Solution/Day-273.cpp) for solution.
 ----
+----
+## Problem 547
+
+##### This problem was asked by Salesforce.
+##### Given an array of integers, find the maximum XOR of any two elements.
+
+#### Click [__*here*__](Solution/Day-547.cpp) for solution.
+----
