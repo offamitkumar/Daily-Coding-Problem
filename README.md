@@ -864,4 +864,5 @@
 ##### Given an array of integers, find the maximum XOR of any two elements.
 
 #### Click [__*here*__](Solution/Day-547.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
