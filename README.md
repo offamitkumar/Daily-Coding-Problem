@@ -917,14 +917,20 @@
 #### Click [__*here*__](https://leetcode.com/problems/product-of-array-except-self/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
 ----
+## Problem 568 
+##### This problem was asked by Google.
+##### Given a sorted list of integers, square the elements and give the output in sorted order.
+##### For example, given ```[-9, -2, 0, 2, 3]```, return ```[0, 4, 4, 9, 81]```.
+#### Click [__*here*__](Solution/Day-568.cpp/) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/squares-of-a-sorted-array/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+----
+----
 ## Problem 574
-
 ##### This problem was asked by Amazon.
 ##### Implement a bit array.
 ##### A bit array is a space efficient array that holds a value of ```1``` or ```0``` at each index.
 #####   ```init(size)```: initialize the array with size
 #####   ```set(i, val)```: updates index at ```i``` with ```val``` where ```val``` is either ```1``` or ```0```.
 #####   ```get(i)```: gets the value at index ```i```.
-
 #### Click [__*here*__](Solution/Day-574.cpp) for solution.
 ----
