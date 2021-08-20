@@ -24,6 +24,17 @@
 #### Click [__*here*__](Solution/Day-002.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/product-of-array-except-self/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 5 
+##### This problem was asked by Jane Street.
+##### ```cons(a, b)``` constructs a pair, and ```car(pair)``` and ```cdr(pair)``` returns the first and last element of that pair. For example, ```car(cons(3, 4))``` returns ```3```, and ```cdr(cons(3, 4))``` returns ```4```.
+##### Given this implementation of cons:
+##### def cons(a, b):
+#####     def pair(f):
+#####         return f(a, b)
+#####     return pair
+##### Implement car and cdr.
+#### Click [__*here*__](Solution/Day-005.cpp/) for solution.
+---
 ## Problem 25
 ##### Implement regular expression matching with the following special characters:
 #####  . (period) which matches any single character
@@ -587,14 +598,12 @@
 ##### This problem was asked by Facebook.
 ##### Given a function ``f``, and ``N`` return a debounced ``f`` of ``N`` milliseconds.
 ##### That is, as long as the debounced ``f`` continues to be invoked, ``f`` itself will not be called for ``N`` milliseconds.
-
 #### Click [__*here*__](Solution/Day-105.cpp) for solution.
 ---
 ## Problem 106
 ##### This problem was asked by Pinterest.
 ##### Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index `0`.
 ##### For example, ``[2, 0, 1, 0]`` returns ``True`` while ``[1, 1, 0, 1]`` returns ``False``.
-
 #### Click [__*here*__](Solution/Day-106.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/jump-game/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
@@ -608,7 +617,6 @@
            / \
           4   5
 ```
-
 #### Click [__*here*__](Solution/Day-107.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/binary-tree-level-order-traversal/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
@@ -616,19 +624,15 @@
 ##### This problem was asked by Google.
 ##### Given two strings ``A`` and ``B``, return whether or not ``A`` can be shifted some number of times to get ``B``.
 ##### For example, if ``A`` is ``abcde`` and ``B`` is ``cdeab``, return ``true``. If ``A`` is ``abc`` and ``B`` is ``acb``, return ``false``.
-
 #### Click [__*here*__](Solution/Day-108.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/rotate-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
----
 ---
 ## Problem 109
 ##### This problem was asked by Cisco.
 ##### Given an unsigned `8-bit integer`, swap its `even and odd bits`. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
 ##### For example, `10101010` should be `01010101`.`11100010` should be `11010001`.
 ##### Bonus: Can you do this in one line?
-
 #### Click [__*here*__](Solution/Day-109.cpp) for solution.
----
 ---
 ### Problem 110 
 ##### This problem was asked by Facebook.
@@ -643,59 +647,45 @@
 
 ```
 ##### Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
-
 #### Click [__*here*__](Solution/Day-110.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/binary-tree-paths/) to visit [*LeetCode*](https://leetcode.com/) for this question.
----
 ---
 ## Problem 111
 ##### This problem was asked by Google.
 ##### Given a word `W` and a string `S`, find all starting indices in `S` which are anagrams of `W`.
 ##### For example, given that `W` is `"ab"`, and `S` is `"abxaba"`, return `0`, `3`, and `4`.
-
 #### Click [__*here*__](Solution/Day-111.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/find-all-anagrams-in-a-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
----
 ---
 ## Problem 112 
 ##### This problem was asked by Twitter.
 ##### Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
 ##### According to the [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
-
 #### Click [__*here*__](Solution/Day-112.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) to visit [*LeetCode*](https://leetcode.com/) for this question.
----
 ---
 ## Problem 113
 ##### This problem was asked by Google.
 ##### Given a string of words delimited by spaces, reverse the words in string. For example, given `"hello world here"`, return `"here world hello"`
 ##### Follow-up: given a mutable string representation, can you perform this operation in-place?
-
 #### Click [__*here*__](Solution/Day-113.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/reverse-words-in-a-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
----
 ---
 ## Problem 214
 ##### This problem was asked by Stripe.
 ##### Given an integer `n`, return the length of the longest consecutive run of `1s` in its binary representation.
 ##### For example, given `156`, you should return `3`.
-
 #### Click [__*here*__](Solution/Day-214.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/max-consecutive-ones/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
----
 ## Problem 242
 ##### You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
-
 ##### `update(hour: int, value: int)`: Increment the element at index hour by value.
 ##### `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
 ##### You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
-
 #### Click [__*here*__](Solution/Day-242.cpp) for solution.
 ---
----
 ## Problem 244
-
 ##### The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than N. The method is to take increasingly larger prime numbers, and mark their multiples as composite.
 ##### 
 ##### For example, to find all primes less than 100, we would first mark [4, 6, 8, ...] (multiples of two), then [6, 9, 12, ...] (multiples of three), and so on. Once we have done this for all primes less than N, the unmarked numbers that remain will be prime.
@@ -703,12 +693,9 @@
 ##### Implement this algorithm.
 ##### 
 ##### Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
-
 #### Click [__*here*__](Solution/Day-244.cpp) for solution.
 ---
----
 ## Problem 255
-
 ##### This problem was asked by Microsoft.
 ##### The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where ```M[i][j] == 1``` if there is a path between vertices ```i``` and ```j```, and otherwise ```0```.
 ##### For example, suppose we are given the following graph in adjacency list form:
@@ -730,25 +717,17 @@
 ##### Given a graph, find its transitive closure.
 #### Click [__*here*__](Solution/Day-255.cpp) for solution.
 ---
----
 ## Problem 256
-
 ##### This problem was asked by Fitbit.
 ##### Given a linked list, rearrange the node values such that they appear in alternating ```low -> high -> low -> high ...``` form. For example, given ```1 -> 2 -> 3 -> 4 -> 5```, you should return ```1 -> 3 -> 2 -> 5 -> 4```.
-
 #### Click [__*here*__](Solution/Day-256.cpp) for solution.
 ---
----
 ## Problem 257
-
 ##### This problem was asked by WhatsApp.
 ##### Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given ```[3, 7, 5, 6, 9]```, you should return ```(1, 3)```.
-
 #### Click [__*here*__](Solution/Day-257.cpp) for solution.
 ---
----
 ## Problem 258
-
 ##### This problem was asked by Morgan Stanley.
 ##### In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
 ##### Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
@@ -761,12 +740,9 @@
     4   5     6   7
 ```
 ##### You should return ```[1, 3, 2, 4, 5, 6, 7]```.
-
 #### Click [__*here*__](Solution/Day-258.cpp) for solution.
 ---
----
 ## Problem 259
-
 ##### This problem was asked by Two Sigma.
 ##### Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
 ##### 
@@ -777,20 +753,15 @@
 ##### * Player 1: ```t [loses]``` 
 ##### Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
 ##### For example, if the dictionary is ```["cat", "calf", "dog", "bear"]```, the only winning start letter would be ```b```.
-
 #### Click [__*here*__](Solution/Day-259.cpp) for solution.
 ---
----
 ## Problem 260
-
 ##### This problem was asked by Pinterest.
 ##### The sequence ```[0, 1, ..., N]``` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given ```[None, +, +, -, +]```, you could return ```[1, 2, 3, 0, 4]```.
 
 #### Click [__*here*__](Solution/Day-260.cpp) for solution.
 ---
----
 ## Problem 261
-
 ##### This problem was asked by Amazon.
 ##### Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as ```0101``` or ```111110```, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a ```0``` in the prefix, while descending right corresponds to ```1```.
 ##### Here is an example tree (note that only the leaf nodes have letters):
@@ -805,20 +776,14 @@
 ```
 ##### With this encoding, cats would be represented as ```0000110111```.
 ##### Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
-
 #### Click [__*here*__](Solution/Day-261.cpp) for solution.
 ---
----
 ## Problem 262 
-
 ##### This problem was asked by Mozilla.
 ##### A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
-
 #### Click [__*here*__](Solution/Day-262.cpp) for solution.
 ---
----
 ## Problem 263
-
 ##### This problem was asked by Nest.
 ##### Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
 ##### We can consider a sentence valid if it conforms to the following rules:
@@ -826,84 +791,58 @@
 ##### 2. All other characters must be lowercase letters, separators (```,```,```;```,```:```) or terminal marks (```.```,```?```,```!```,```‽```).
 ##### 3. There must be a single space between each word.
 ##### 4. The sentence must end with a terminal mark immediately following a word.
-
 #### Click [__*here*__](Solution/Day-263.cpp) for solution.
 ---
----
 ## Problem 265
-
 ##### This problem was asked by Atlassian.
 ##### MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
 ##### Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
 ##### For example, given ```[10, 40, 200, 1000, 60, 30]```, you should return ```[1, 2, 3, 4, 2, 1]```.
-
 #### Click [__*here*__](Solution/Day-265.cpp) for solution.
 ---
----
 ## Problem 273
-
 ##### This problem was asked by Apple.
 ##### A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return ```a fixed point```, if one exists. Otherwise, return ```False```.
 ##### For example, given ```[-6, 0, 2, 40]```, you should return ```2```. Given ```[1, 5, 7, 8]```, you should return ```False```.
-
 #### Click [__*here*__](Solution/Day-273.cpp) for solution.
 ---
----
 ## Problem 362 
-
 ##### This problem was asked by Twitter.
 ##### A ```strobogrammatic``` number is a positive number that appears the same after being rotated ```180``` degrees. For example, ```16891``` is strobogrammatic.
 ##### Create a program that finds all strobogrammatic numbers with ```N digits```.
-
 #### Click [__*here*__](Solution/Day-273.cpp) for solution.
 ----
-----
 ## Problem 547
-
 ##### This problem was asked by Salesforce.
 ##### Given an array of integers, find the maximum XOR of any two elements.
-
 #### Click [__*here*__](Solution/Day-547.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
-----
 ## Problem 558
-
 ##### This problem was asked by Google.
 ##### The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
 ##### Hint: The basic equation of a circle is x^2 + y^2 = r^2.
-
 #### Click [__*here*__](Solution/Day-558.cpp) for solution.
 ----
-----
 ## Problem 559
-
 ##### This problem was asked by Google.
 ##### Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
-
 #### Click [__*here*__](Solution/Day-559.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/merge-k-sorted-lists/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
-----
 ## Problem 560
-
 ##### This problem was recently asked by Google.
 ##### Given a list of numbers and ```a``` number ```k```, return whether any two numbers from the list add up to ```k```.
 ##### For example, given ```[10, 15, 3, 7]``` and ```k``` of ```17```, return true since ```10 + 7``` is ```17```.
 ##### Bonus: Can you do this in one pass?
-
 #### Click [__*here*__](Solution/Day-560.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/two-sum/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
-----
 ## Problem 561 
-
 ##### This problem was asked by Etsy.
 ##### Given a sorted array, convert it into a height-balanced binary search tree.
-
 #### Click [__*here*__](Solution/Day-561.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) to visit [*LeetCode*](https://leetcode.com/) for this question.
-----
 ----
 ## Problem 562
 ##### This problem was asked by Uber.
@@ -912,18 +851,26 @@
 ##### For example, if our input was ``[1, 2, 3, 4, 5]``, the expected output would be ``[120, 60, 40, 30, 24]``. 
 ##### If our input was ``[3, 2, 1]``, the expected output would be ``[2, 3, 6]``.  
 ##### Follow-up: what if you __can't use division__?
-
 #### Click [__*here*__](Solution/Day-562.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/product-of-array-except-self/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
-----
+## Problem 567
+##### This problem was asked by Jane Street.
+##### ```cons(a, b)``` constructs a pair, and ```car(pair)``` and ```cdr(pair)``` returns the first and last element of that pair. For example, ```car(cons(3, 4))``` returns ```3```, and ```cdr(cons(3, 4))``` returns ```4```.
+##### Given this implementation of cons:
+##### def cons(a, b):
+#####     def pair(f):
+#####         return f(a, b)
+#####     return pair
+##### Implement car and cdr.
+#### Click [__*here*__](Solution/Day-00567.cpp/) for solution.
+---
 ## Problem 568 
 ##### This problem was asked by Google.
 ##### Given a sorted list of integers, square the elements and give the output in sorted order.
 ##### For example, given ```[-9, -2, 0, 2, 3]```, return ```[0, 4, 4, 9, 81]```.
 #### Click [__*here*__](Solution/Day-568.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/squares-of-a-sorted-array/) to visit [*LeetCode*](https://leetcode.com/) for this question.
-----
 ----
 ## Problem 574
 ##### This problem was asked by Amazon.
