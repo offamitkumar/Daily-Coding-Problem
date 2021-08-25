@@ -895,3 +895,11 @@
 #### Click [__*here*__](Solution/Day-578.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/isomorphic-strings/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
+## Problem 579
+##### This problem was asked by Flipkart.
+##### Starting from ```0``` on a number line, you would like to make a series of jumps that lead to the integer ```N```.
+##### On the ith jump, you may move exactly ```i``` places to the left or right.
+##### Find a path with the fewest number of jumps required to get from ```0``` to ```N```.
+#### Click [__*here*__](Solution/Day-579.cpp/) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/reach-a-number/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+----
