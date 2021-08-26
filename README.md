@@ -903,3 +903,17 @@
 #### Click [__*here*__](Solution/Day-579.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/reach-a-number/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ----
+## Problem 580
+##### This question was asked by Apple.
+##### Given a binary tree, find a minimum path sum from root to a leaf.
+##### For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+```
+           10
+          /  \
+         5    5
+          \     \
+            2    1
+                /
+              -1
+              ```
+#### Click [__*here*__](Solution/Day-580.cpp/) for solution.
