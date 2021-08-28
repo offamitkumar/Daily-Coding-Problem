@@ -12,6 +12,9 @@
 class Solution {
     int minSum;
     void dfs(TreeNode* root , int currentSum) {
+        if (currentSum > minSum) {
+            return;
+        }
         if (root == nullptr) {
             minSum = min(minSum , currentSum) ; 
             return; 
