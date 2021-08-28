@@ -921,7 +921,7 @@
             2    1
                 /
               -1
-              ```
+```
 #### Click [__*here*__](Solution/Day-580.cpp/) for solution.
 ---
 ## Problem 582
