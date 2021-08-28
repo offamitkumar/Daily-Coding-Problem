@@ -2,8 +2,8 @@
 ###### This are solution to **Daily Coding Problem**.
 ###### Most of These problem are found on [*LeetCode*](https://leetcode.com/) with minor changes in **Output/Input**.
 ###### Solutions might not be the *optimised* one , but they passed all leetcode testcase within given *time limit*.
-###### Problem begin to repeat after 366 days, so they are marked as , Refer to Problem : X
 
+### *PROBLEMS WHICH ARE REPEATED ARE NOTE ADDED IN THIS LIST , SO PLEASE SEARCH QUESTION BY EITHER STATEMENT OR COMPANY NAME.* 
 ---
 ## Problem 1
 ##### This problem was recently asked by Google.
@@ -945,10 +945,6 @@ and
               -1 
 ```
 #### Click [__*here*__](Solution/Day-580.cpp/) for solution.
----
-## Problem 581
-##### Refer to Problem [185](https://github.com/offamitkumar/Daily-Coding-Problem#problem-185).
-#### Click [__*here*__](Solution/Day-581.cpp/) for solution.
 ---
 ## Problem 582
 ##### This problem was asked by Microsoft.
