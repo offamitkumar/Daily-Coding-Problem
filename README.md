@@ -672,6 +672,19 @@
 #### Click [__*here*__](Solution/Day-113.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/reverse-words-in-a-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 122 
+##### This question was asked by Zillow.
+##### You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
+##### For example, in this matrix
+```
+0 3 1 1
+2 0 0 4
+1 5 3 1
+```
+##### The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+#### Click [__*here*__](Solution/Day-122.cpp) for solution.
+#### Click [__*here*__](https://binarysearch.com/problems/Collecting-Coins) to visit for this question.
+---
 ## Problem 185
 ##### This problem was asked by Google.
 ##### Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
