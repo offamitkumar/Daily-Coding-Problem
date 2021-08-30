@@ -720,11 +720,11 @@ and
 #### Click [__*here*__](https://leetcode.com/problems/max-consecutive-ones/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
 ## Problem 231
-This problem was asked by IBM.
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
-For example, given ```"aaabbc"```, you could return ```"ababac"```. Given ```"aaab"```, return ```None```.
-Click [__*here*__](Solution/Day-231.cpp) for solution.
-Click [__*here*__](https://leetcode.com/problems/reorganize-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+##### This problem was asked by IBM.
+##### Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+##### For example, given ```"aaabbc"```, you could return ```"ababac"```. Given ```"aaab"```, return ```None```.
+#### Click [__*here*__](Solution/Day-231.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/reorganize-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
 ## Problem 242
 ##### You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
