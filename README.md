@@ -685,6 +685,20 @@
 #### Click [__*here*__](Solution/Day-122.cpp) for solution.
 #### Click [__*here*__](https://binarysearch.com/problems/Collecting-Coins) to visit for this question.
 ---
+## Problem 136
+##### This question was asked by Google.
+##### Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+##### For example, given the following matrix:
+```
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+```
+##### Return ```4```.
+#### Click [__*here*__](Solution/Day-136.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/maximal-rectangle/) to visit for this question.
+---
 ## Problem 185
 ##### This problem was asked by Google.
 ##### Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
