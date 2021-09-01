@@ -3,7 +3,6 @@
 ###### Most of These problem are found on [*LeetCode*](https://leetcode.com/) with minor changes in **Output/Input**.
 ###### Solutions might not be the *optimised* one , but they passed all leetcode testcase within given *time limit*.
 
-### *PROBLEMS WHICH ARE REPEATED ARE NOTE ADDED IN THIS LIST , SO PLEASE SEARCH QUESTION BY EITHER STATEMENT OR COMPANY NAME.* 
 ---
 ## Problem 1
 ##### This problem was recently asked by Google.
@@ -867,6 +866,20 @@ and
 ##### A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return ```a fixed point```, if one exists. Otherwise, return ```False```.
 ##### For example, given ```[-6, 0, 2, 40]```, you should return ```2```. Given ```[1, 5, 7, 8]```, you should return ```False```.
 #### Click [__*here*__](Solution/Day-273.cpp) for solution.
+---
+## Problem 287
+##### This problem was asked by Quora.
+##### You are given a list of ```(website, user)``` pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
+##### For example, suppose ```k = 1```, and the list of tuples is:
+```
+[('a', 1), ('a', 3), ('a', 5),
+ ('b', 2), ('b', 6),
+ ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5)
+ ('d', 4), ('d', 5), ('d', 6), ('d', 7),
+ ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
+``` 
+##### Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return ```[('a', 'e')]```.
+#### Click [__*here*__](Solution/Day-287.cpp) for solution.
 ---
 ## Problem 362 
 ##### This problem was asked by Twitter.
