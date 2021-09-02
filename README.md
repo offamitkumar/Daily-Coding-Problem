@@ -861,6 +861,13 @@ and
 ##### For example, given ```[10, 40, 200, 1000, 60, 30]```, you should return ```[1, 2, 3, 4, 2, 1]```.
 #### Click [__*here*__](Solution/Day-265.cpp) for solution.
 ---
+## Problem 272
+##### This problem was asked by Spotify.
+##### Write a function, ```throw_dice(N, faces, total)```, that determines how many ways it is possible to throw ```N``` dice with some number of faces each to get a specific total.
+##### For example, ```throw_dice(3, 6, 7)``` should equal ```15```.
+#### Click [__*here*__](Solution/Day-272.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 273
 ##### This problem was asked by Apple.
 ##### A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return ```a fixed point```, if one exists. Otherwise, return ```False```.
