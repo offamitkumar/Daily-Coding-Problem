@@ -684,6 +684,15 @@
 #### Click [__*here*__](Solution/Day-122.cpp) for solution.
 #### Click [__*here*__](https://binarysearch.com/problems/Collecting-Coins) to visit for this question.
 ---
+## Problem 134 
+##### This problem was asked by Facebook.
+##### You have a large array with most of the elements as zero.
+##### Use a more space-efficient data structure, ```SparseArray```, that implements the same interface:
+##### * ```init(arr, size)```: initialize with the original large array and size.
+##### * ```set(i, val)```: updates index at ```i``` with ```val```.
+##### * ```get(i)```: gets the value at index ```i```.
+#### Click [__*here*__](Solution/Day-134.cpp) for solution.
+---
 ## Problem 136
 ##### This question was asked by Google.
 ##### Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
@@ -697,15 +706,6 @@
 ##### Return ```4```.
 #### Click [__*here*__](Solution/Day-136.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/maximal-rectangle/) to visit for this question.
----
-## Problem 137 
-##### This problem was asked by Facebook.
-##### You have a large array with most of the elements as zero.
-##### Use a more space-efficient data structure, ```SparseArray```, that implements the same interface:
-##### * ```init(arr, size)```: initialize with the original large array and size.
-##### * ```set(i, val)```: updates index at ```i``` with ```val```.
-##### * ```get(i)```: gets the value at index ```i```.
-#### Click [__*here*__](Solution/Day-137.cpp) for solution.
 ---
 ## Problem 185
 ##### This problem was asked by Google.
