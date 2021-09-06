@@ -911,6 +911,20 @@ and
 ##### Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return ```[('a', 'e')]```.
 #### Click [__*here*__](Solution/Day-287.cpp) for solution.
 ---
+## Problem 351 
+##### This problem was asked by Quora.
+##### Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the bank", bank probably means the place where people deposit money, not the land beside a river or lake.
+##### Suppose you are given a list of meanings for several words, formatted like so:
+```
+{
+    "word_1": ["meaning one", "meaning two", ...],
+    ...
+    "word_n": ["meaning one", "meaning two", ...]
+}
+```
+##### Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+#### Click [__*here*__](Solution/Day-351.cpp) for solution.
+---
 ## Problem 362 
 ##### This problem was asked by Twitter.
 ##### A ```strobogrammatic``` number is a positive number that appears the same after being rotated ```180``` degrees. For example, ```16891``` is strobogrammatic.
