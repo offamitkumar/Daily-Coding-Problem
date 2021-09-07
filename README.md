@@ -731,6 +731,14 @@
 ##### Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 #### Click [__*here*__](Solution/Day-178.cpp) for solution.
 ---
+## Problem 180
+##### This problem was asked by Google.
+##### Given a stack of ```N``` elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
+##### Recall that you can only ```push``` or ```pop``` from a ```stack```, and ```enqueue``` or ```dequeue``` from a ```queue```.
+##### For example, if the stack is ```[1, 2, 3, 4, 5]```, it should become ```[1, 5, 2, 4, 3]```. If the stack is ```[1, 2, 3, 4]```, it should become ```[1, 4, 2, 3]```.
+##### Hint: Try working backwards from the end state.
+#### Click [__*here*__](Solution/Day-180.cpp) for solution.
+---
 ## Problem 185
 ##### This problem was asked by Google.
 ##### Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
