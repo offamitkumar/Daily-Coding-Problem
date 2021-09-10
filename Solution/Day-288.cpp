@@ -1,3 +1,8 @@
+/*
+   if you try to simulate then at most 7 steps are possible to reach to kaprekar's constant. 
+   so a brute force solution should be accepted. I didn't find any pattern so preprocessing will
+   be a stupid thing to do here. 
+   */
 #include <bits/stdc++.h>
 using namespace std;
 class Solution{ 
