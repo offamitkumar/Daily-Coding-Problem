@@ -690,6 +690,12 @@
 #### Click [__*here*__](Solution/Day-122.cpp) for solution.
 #### Click [__*here*__](https://binarysearch.com/problems/Collecting-Coins) to visit for this question.
 ---
+## Problem 124 
+##### This problem was asked by Microsoft.
+##### You have ```n``` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+##### Write a function that, given ```n```, returns the number of rounds you'd expect to play until one coin remains.
+#### Click [__*here*__](Solution/Day-124.cpp) for solution.
+---
 ## Problem 134 
 ##### This problem was asked by Facebook.
 ##### You have a large array with most of the elements as zero.
