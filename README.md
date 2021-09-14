@@ -929,6 +929,12 @@ and
 #### Click [__*here*__](Solution/Day-285.cpp) for solution.
 #### Click [__*here*__](https://practice.geeksforgeeks.org/problems/buildings-receiving-sunlight3032/1) for this question.
 ---
+## Problem 282 
+##### This problem was asked by Netflix.
+##### Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet ```(a, b, c)``` is defined by the equation ```a^2```+ ```b^2```= ```c^2```.
+#### Click [__*here*__](Solution/Day-282.cpp) for solution.
+#### Click [__*here*__](https://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/) for this question.
+---
 ## Problem 287
 ##### This problem was asked by Quora.
 ##### You are given a list of ```(website, user)``` pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
