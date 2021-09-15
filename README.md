@@ -962,6 +962,11 @@ and
 ##### Write a function that returns how many steps this will take for a given input ```N```.
 #### Click [__*here*__](Solution/Day-288.cpp) for solution.
 ---
+## Problem 340
+##### This problem was asked by Google.
+##### Given a set of points ```(x, y)``` on a ```2D``` cartesian plane, find the two closest points. For example, given the points ```[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]```, return ```[(-1, -1), (1, 1)]```.
+#### Click [__*here*__](Solution/Day-340.cpp) for solution.
+---
 ## Problem 341
 ##### This problem was asked by Google.
 ##### You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
