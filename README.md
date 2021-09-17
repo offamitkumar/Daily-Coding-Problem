@@ -908,6 +908,18 @@ and
 ##### For example, given ```[10, 40, 200, 1000, 60, 30]```, you should return ```[1, 2, 3, 4, 2, 1]```.
 #### Click [__*here*__](Solution/Day-265.cpp) for solution.
 ---
+## Problem 269
+##### This problem was asked by Microsoft.
+##### You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
+##### * ```L```, meaning the domino has just been pushed to the left,
+##### * ```R```, meaning the domino has just been pushed to the right, or
+##### * ```.```, meaning the domino is standing still.
+##### Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
+##### For example, given the string ```.L.R....L```, you should return ```LL.RRRLLL```.
+##### Given the string ```..R...L.L```, you should return ```..RR.LLLL```.
+#### Click [__*here*__](Solution/Day-269.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/push-dominoes/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 272
 ##### This problem was asked by Spotify.
 ##### Write a function, ```throw_dice(N, faces, total)```, that determines how many ways it is possible to throw ```N``` dice with some number of faces each to get a specific total.
