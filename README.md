@@ -806,6 +806,15 @@ and
 #### Click [__*here*__](Solution/Day-231.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/reorganize-string/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 241
+##### This problem was asked by Palantir.
+##### In academia, the h-index is a metric used to calculate the impact of a researcher's papers. It is calculated as follows:
+##### A researcher has index ```h``` if at least ```h``` of her ```N``` papers have ```h``` citations each. If there are multiple ```h``` satisfying this formula, the maximum is chosen.
+##### For example, suppose ```N = 5```, and the respective citations of each paper are ```[4, 3, 0, 1, 5]```. Then the ```h-index``` would be ```3```, since the researcher has ```3``` papers with at least ```3``` citations.
+##### Given a list of paper citations of a researcher, calculate their h-index.
+#### Click [__*here*__](Solution/Day-241.cpp) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/h-index/) to visit [*LeetCode*](https://leetcode.com/) for this question.
+---
 ## Problem 242
 ##### You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
 ##### `update(hour: int, value: int)`: Increment the element at index hour by value.
