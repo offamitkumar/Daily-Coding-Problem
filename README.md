@@ -716,6 +716,21 @@ Move 1 to 3
 ```
 #### Click [__*here*__](Solution/Day-128.cpp) for solution.
 ---
+## Problem 133
+##### This problem was asked by Amazon.
+##### Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
+##### For example, the inorder successor of 22 is 30.
+##### ```
+#####    10
+#####   /  \
+#####  5    30
+#####      /  \
+#####    22    35
+##### ```
+##### You can assume each node has a parent pointer.
+#### Click [__*here*__](Solution/Day-133.cpp) for solution.
+#### Click [__*here*__](https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1#) to visit for this question.
+---
 ## Problem 134 
 ##### This problem was asked by Facebook.
 ##### You have a large array with most of the elements as zero.
