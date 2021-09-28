@@ -1,16 +1,18 @@
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
-        vector<int>dp(1003); 
-        for (auto&itr:citations) { 
-            dp[itr]++;
-        }
-        for (int i = 1001; i>=0; --i) {
-            dp[i] += dp[i+1]; 
-            if (i <= dp[i]) {
-                return i;
+        int low = 0 , high = citations.size()-1; 
+        const int &n = citations.size();
+        while (low <= high) {
+            int mid = (low + high) / 2; 
+            if (citations[mid] == n-mid) {
+                return n - mid; 
+            } else if (citations[mid] > n - mid) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
-        return -1;
+        return n - low;
     }
 };
