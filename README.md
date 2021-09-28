@@ -809,6 +809,15 @@ and
 #### Click [__*here*__](Solution/Day-185.cpp/) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/rectangle-area/) to visit [*LeetCode*](https://leetcode.com/) for similar question.
 ---
+## Problem 191 
+##### This problem was asked by Stripe.
+##### Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+##### Intervals can "touch", such as ```[0, 1]``` and ```[1, 2]```, but they won't be considered overlapping.
+##### For example, given the intervals ```(7, 9), (2, 4), (5, 8)```, return ```1``` as the last interval can be removed and the first two won't overlap.
+##### The intervals are not necessarily ```sorted``` in any order.
+#### Click [__*here*__](Solution/Day-191.cpp/) for solution.
+#### Click [__*here*__](https://leetcode.com/problems/non-overlapping-intervals/) to visit [*LeetCode*](https://leetcode.com/) for similar question.
+---
 ## Problem 200 
 ##### This problem was asked by Microsoft.
 ##### Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
