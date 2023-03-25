@@ -33,11 +33,11 @@ public:
         return true;
       }
       // check right subtree.
-      if (q->left && isExactTreeMatch(p, q->left)) {
+      if (q->left && isSameTree(p, q->left)) {
         return true;
       }
       // check left subtree
-      if (q->right && isExactTreeMatch(p, q->right)) {
+      if (q->right && isSameTree(p, q->right)) {
         return true;
       }
       return false;
