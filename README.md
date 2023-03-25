@@ -724,6 +724,12 @@ def __init__(self, val, left=None, right=None):
 #### Click [__*here*__](Solution/Day-115.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/same-tree/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 116
+##### This problem was asked by Jane Street.
+##### Generate a finite, but an arbitrarily large binary tree quickly in `O(1)`.
+##### That is, `generate()` should return a tree whose size is unbounded but finite.
+#### Click [__*here*__](Solution/Day-116.cpp) for solution.
+---
 ## Problem 122 
 ##### This question was asked by Zillow.
 ##### You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
