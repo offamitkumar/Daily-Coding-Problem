@@ -749,6 +749,11 @@ def __init__(self, val, left=None, right=None):
 #### Click [__*here*__](Solution/Day-119.cpp) for solution.
 #### Click [__*here*__](https://leetcode.com/problems/squares-of-a-sorted-array/) to visit [*LeetCode*](https://leetcode.com/) for this question.
 ---
+## Problem 120
+##### This problem was asked by Microsoft.
+##### Implement the singleton pattern with a twist. First, instead of storing one instance, `store two instances`. And in every `even` call of `getInstance()`, return the `first instance` and in every `odd call` of getInstance(), return the `second instance`.
+#### Click [__*here*__](Solution/Day-120.cpp) for solution.
+---
 ## Problem 122 
 ##### This question was asked by Zillow.
 ##### You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
